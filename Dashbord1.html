@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard1.thml</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .par{width: 100%; height:105vh; 
+            background-color: gray; 
+            border: 15px solid black; padding: 5px;
+            display: flex;}
+        .c1{ width: 20%;height: 100vh; 
+            background-color: black;
+            border: 15px solid black; padding: 5px;
+            color: white;}
+        .c2{width: 80%;height: 100vh; 
+            background-color: white;
+            border: 15px solid white padding: 5px;}
+        .sc1{width: 100%;height: 12vh; 
+            background-color: white;
+            border: 15px solid white; padding: 5px;
+            display: flex; align-items: center; justify-content: space-between;}
+        .sc2{width: 100%;height: 42vh; 
+            background-color:white;
+            border: 15px solid white; padding: 5px;
+            display: flex; align-items: center; justify-content: space-between;}
+        .sc3{width: 100%;height: 42vh; 
+            background-color: white;
+            border: 15px solid white; padding: 5px;
+            display: flex; align-items: center; justify-content: space-around
+            }
+        .scc1{width:350px;height: 10vh; 
+            background-color: white;
+            border: 5px solid white; padding: 5px;
+            text-align: center;display: flex;
+            align-items: center;}
+        .scc2{width:350px;height: 10vh; 
+            background-color: white;
+            border: 5px solid white; padding: 5px;
+            display: flex;align-items: center;justify-content: end;}
+        .sc21,.sc22,.sc23{width:350px;height: 25vh; 
+            background-color: white;
+            border: 5px solid white; padding: 5px;
+            text-align: center;color: white;}
+        .sc21{background-color: rgb(99, 99, 221);}
+        .sc22{background-color: green;}
+        .sc23{background-color: orangered;}
+        .scc31,.scc32{width:350px;height: 25vh; 
+            background-color: white;
+            border: 5px solid black; padding: 5px;}
+        button{width: 200px;height: 4vh;}
+        h1{text-align: left; margin-left: 15px;}
+        p{text-align: right;}
+        h3{text-align: end;}
+        input{width: 200px;height: 4vh;}
+        .sb{display: flex; justify-content: space-between;}
+        img{width: 100%;height: 13vh;}
+        h2{margin-left: 20%;}
+    
+    </style>
+</head>
+<body>
+    <div class="par">
+        <div class="c1">
+            <h1>Spur</h1><br>
+            <h2>Dashbord</h2>
+            <h2>Charts</h2>
+            <h2>components</h2>
+            <h2>Layouts</h2>
+            <h2>About</h2>
+
+
+        </div>
+        <div class="c2">
+            <div class="sc1">
+                <div class="scc1">
+                    <input type="text" placeholder="search box">
+                </div>
+                <div class="scc2">
+                    <button>Sign out</button>
+                </div>
+            </div>
+            <div class="sc2">
+                <div class="sc21">
+                    <par> <h1> Sign ups</h1><br>
+                        <h3><h2><p>114</p></h2><p>+25% from last month</p></h3>
+                    </par>
+                </div>
+                <div class="sc22">
+                    <par> <h1> Revenue</h1><br>
+                        <h3><h2><p>$25541</p></h2><p>+17.5% from last month</p></h3>
+                    </par>
+                </div>
+                <div class="sc23">
+                    <par> <h1>Open tickets</h1><br><br>
+                        <h2><p>5</p></h2>
+                    </par>
+                </div>
+            </div>
+            <div class="sc3">
+                <div class="scc31">
+                    <h1>Bar chart</h1><hr>
+                    <img src="Bar.png">
+                </div>
+                <div class="scc32">
+                    <h1>Notifications</h1><hr>
+                    <div class="sb">
+                        <p>New comment</p><p>21 days</p>
+                    </div>
+                    <div class="sb">
+                        <p>New comment</p><p>21 days</p>
+                    </div>
+                    <div class="sb">
+                        <p>New comment</p><p>21 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

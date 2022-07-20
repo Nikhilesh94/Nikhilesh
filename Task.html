@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+</head>
+<body>
+    <table border="1" cellpadding="10">
+        <caption align="Top"><b><ins>Student Resgistration Form Using Table in HTML</ins></b></caption>
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="name"> First Name :</label></td>
+                <td><input type="text" id="name" required minlength="5" maxlength="10"> (Max 50 Characters Allowed)</td>
+            </tr>
+            <br>
+            <tr>
+                <td><label for="name"> Last Name :</label></td>
+                <td><input type="text" id="name"> (Max 50 Characters Allowed)</td>
+            </tr>
+            <br>
+            <tr>
+                <td><label> Email ID :</label></td>
+                <td> <input type="email"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label for="number">Mobile Number :</label></td>
+                <td><input type="number" id="number" required min="10" max="10">(10 Digits Allowed)</td>
+            </tr>
+            <tr>
+                <td><label> Gender :</label></td>
+                <td><input type="radio" name="gender"><label> Male</label><input type="radio" name="gender"><label>Female</label></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth(DOB):</label></td>
+                <td><select><option>day</option><option>18</option></select><select><option>Month</option><option>July</option></select><select><option>Year </option><option>1994</option></select></td>
+            </tr>
+            <tr>
+                <td><label> Address :</label></td>
+                <td><textarea rows="5" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>City :</label></td>
+                <td><input type="text"> ( Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label>Pin Code :</label></td>
+                <td> <input type="number" required min="6" max="6"> ( Max 6 Numbers Allowed)</td>
+            </tr>
+            <tr>
+                <td><label>State :</label></td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <td>Hobbies :</td>
+                <td><input type="checkbox"><label>Drawing</label><input type="checkbox"><label>Singing</label><input type="checkbox"><label>Dancing</label><input type="checkbox"><label>Sketching</label><input type="checkbox"><label>Others</label><input type="text">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label>Qualification :</label></td>
+                <td><input type="radio" name="abc"><label> High School(10th)</label><br><input type="radio" name="abc"><label>Higher School(12th)</label><br><input type="radio" name="abc"><label>Graduation(Bachelors)</label><br><input type="radio" name="abc"><label>Post Graduation (Masters)</label><br><input type="radio" name="abc"><label>PhD</label></td>
+            </tr>
+            <tr>
+                <td><label>Courses Applied For :</label></td>
+                <td><input type="radio" name="abc"><label>BCA (Bachelor of computer Application)</label><br><input type="radio" name="abc"><label> B.Com(Bachelor of Commerce)</label><br><input type="radio" name="abc"><label>B.sc (Bachelor of Science)</label><br><input type="radio" name="abc"><label>BA (Bachelor of Arts)</label><br><input type="radio" name="abc"><label>MCA(Master of Computer Appilication)</label><br><input type="radio" name="abc"><label>M.com(Master of Commerce)</label><br><input type="radio" name="abc"><label>M.sc(Master of science)</label><br><input type="radio" name="abc"><label>MA(Master of Arts)</label></td>
+            </tr>
+            <tr>
+               <th colspan="2"><input type="submit"><input type="reset"></th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
